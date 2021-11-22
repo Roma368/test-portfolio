@@ -8,9 +8,13 @@
     margin: 40px;
     background-color: #FFFFFF;
     box-shadow: 0 0 7px rgba(0,0,0,0.5);
+    max-width: 1160px;
+    min-width: 746px;
+
 }
 .side-bar{
     background-color: #1E2939;
+    float: left;
 }
 .container-sidebar{
     margin: auto auto auto 40px;
@@ -18,9 +22,13 @@
 .container{
    margin-left: 88px;
 }
+.orange-text{
+    color:#FB6D3A;
+}
+
 body{
     background: #E5E5E5;
-    font-family: Montserrat;
+    font-family: 'Montserrat Subrayada', sans-serif;
 }
 p{
     font-size: 14px;
@@ -48,4 +56,7 @@ aside ul li span{
     color: #FFFFFF;
     font-size: 14px;
     line-height: 24px;
+}
+.container p{
+    max-width: 400px;
 }
